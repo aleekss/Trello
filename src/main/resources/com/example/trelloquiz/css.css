@@ -1,0 +1,62 @@
+#btnAnswer1{
+
+    -fx-background-color: #4CAF50; /* Green background color */
+    -fx-background-radius: 10px; /* Rounded corners */
+    -fx-border-color: #FFFFFF; /* White border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-text-fill: #FFFFFF; /* White text color */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-font-size: 16px; /* Font size */
+    -fx-pref-height: 83px; /* Preferred height */
+    -fx-pref-width: 208px; /* Preferred width */
+}
+#btnAnswer1:hover{
+      -fx-background-color: #45a049; /* Dark green color on hover */
+}
+#btnAnswer1:pressed{
+    -fx-background-color: #388e3c; /* Darker green color when pressed */
+}
+
+
+#btnAnswer2{
+
+    -fx-background-color: #1E90FF; /* Green background color */
+    -fx-background-radius: 10px; /* Rounded corners */
+    -fx-border-color: #FFFFFF; /* White border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-text-fill: #FFFFFF; /* White text color */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-font-size: 16px; /* Font size */
+    -fx-pref-height: 83px; /* Preferred height */
+    -fx-pref-width: 208px; /* Preferred width */
+}
+#btnAnswer2:hover{
+    -fx-background-color: #4f4fb4; /* Dark green color on hover */
+}
+#btnAnswer2:pressed{
+    -fx-background-color: #3d44be; /* Darker green color when pressed */
+}
+
+
+
+#btnAnswer3{
+
+    -fx-background-color: #e80e0e; /* Green background color */
+    -fx-background-radius: 10px; /* Rounded corners */
+    -fx-border-color: #FFFFFF; /* White border color */
+    -fx-border-width: 2px; /* Border width */
+    -fx-text-fill: #FFFFFF; /* White text color */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-font-size: 16px; /* Font size */
+    -fx-pref-height: 83px; /* Preferred height */
+    -fx-pref-width: 208px; /* Preferred width */
+}
+#btnAnswer3:hover{
+    -fx-background-color: #a21212; /* Dark green color on hover */
+}
+#btnAnswer3:pressed{
+    -fx-background-color: #9d2e2e; /* Darker green color when pressed */
+}
+
+
+
