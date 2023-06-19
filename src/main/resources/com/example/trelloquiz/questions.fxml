@@ -8,7 +8,7 @@
 
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trelloquiz.HelloController">
    <children>
-      <AnchorPane prefHeight="426.0" prefWidth="600.0">
+      <AnchorPane fx:id="anchorPanee" prefHeight="426.0" prefWidth="600.0" stylesheets="@css.css">
          <children>
             <Label fx:id="labelQuestion" layoutX="107.0" layoutY="34.0" prefHeight="65.0" prefWidth="419.0" stylesheets="@css.css" text="Question" textAlignment="CENTER">
                <font>

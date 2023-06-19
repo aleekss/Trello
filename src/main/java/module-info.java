@@ -6,4 +6,5 @@ module com.example.trelloquiz {
 
     opens com.example.trelloquiz to javafx.fxml;
     exports com.example.trelloquiz;
+
 }

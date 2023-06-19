@@ -10,8 +10,13 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 import javafx.util.Duration;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class HelloController {
     @FXML
@@ -19,6 +24,41 @@ public class HelloController {
 
     @FXML
     public Button buttonStart;
+
+
+
+
+    public static void main(String[] args) {
+        File file = new File("quiz.json");
+        String content;
+
+        try {
+
+            content = new String(Files.readAllBytes(Paths.get(file.toURI())));
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        JSONObject jsonObject = new JSONObject(content);
+
+        for (int i = 0; i < jsonObject.length(); i++) {
+            JSONObject jsonObject1 = jsonObject.getJSONObject("quiz");
+
+            for (int y = 0; y < jsonObject1.length(); y++) {
+                JSONArray jsonArray = jsonObject1.getJSONArray("questions");
+                for (int z = 0; z < jsonArray.length(); z++) {
+                    JSONObject jsonObject2 = jsonArray.getJSONObject(z);
+                    System.out.println(jsonObject2.get("question"));
+                    System.out.println(jsonObject2.getJSONArray("answers"));
+
+
+
+                }
+            }
+
+
+        }
+    }
 
     @FXML
     public void onButtonClick() throws IOException {
@@ -46,5 +86,7 @@ public class HelloController {
         delay.setOnFinished(event -> window.close());
         delay.play();
 
+
     }
+
 }

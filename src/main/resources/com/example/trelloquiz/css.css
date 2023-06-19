@@ -2,8 +2,6 @@
 
     -fx-background-color: #4CAF50; /* Green background color */
     -fx-background-radius: 10px; /* Rounded corners */
-    -fx-border-color: #FFFFFF; /* White border color */
-    -fx-border-width: 2px; /* Border width */
     -fx-text-fill: #FFFFFF; /* White text color */
     -fx-font-weight: bold; /* Bold font weight */
     -fx-font-size: 16px; /* Font size */
@@ -22,8 +20,7 @@
 
     -fx-background-color: #1E90FF; /* Green background color */
     -fx-background-radius: 10px; /* Rounded corners */
-    -fx-border-color: #FFFFFF; /* White border color */
-    -fx-border-width: 2px; /* Border width */
+
     -fx-text-fill: #FFFFFF; /* White text color */
     -fx-font-weight: bold; /* Bold font weight */
     -fx-font-size: 16px; /* Font size */
@@ -31,7 +28,7 @@
     -fx-pref-width: 208px; /* Preferred width */
 }
 #btnAnswer2:hover{
-    -fx-background-color: #4f4fb4; /* Dark green color on hover */
+    -fx-background-color: #2b2bfc; /* Dark green color on hover */
 }
 #btnAnswer2:pressed{
     -fx-background-color: #3d44be; /* Darker green color when pressed */
@@ -43,8 +40,7 @@
 
     -fx-background-color: #e80e0e; /* Green background color */
     -fx-background-radius: 10px; /* Rounded corners */
-    -fx-border-color: #FFFFFF; /* White border color */
-    -fx-border-width: 2px; /* Border width */
+
     -fx-text-fill: #FFFFFF; /* White text color */
     -fx-font-weight: bold; /* Bold font weight */
     -fx-font-size: 16px; /* Font size */
@@ -56,6 +52,28 @@
 }
 #btnAnswer3:pressed{
     -fx-background-color: #9d2e2e; /* Darker green color when pressed */
+}
+
+#btnAnswer4{
+    -fx-background-color: orange; /* Green background color */
+    -fx-background-radius: 10px; /* Rounded corners */
+
+    -fx-text-fill: #FFFFFF; /* White text color */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-font-size: 16px; /* Font size */
+    -fx-pref-height: 83px; /* Preferred height */
+    -fx-pref-width: 208px; /* Preferred width */
+}
+
+#btnAnswer4:hover{
+    -fx-background-color: #bb7e06; /* Dark green color on hover */
+}
+#btnAnswer4:pressed{
+    -fx-background-color: #8d6003; /* Darker green color when pressed */
+}
+
+#anchorPanee{
+    -fx-background-color: #e0dcdc;
 }
 
 
